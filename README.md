@@ -4,7 +4,7 @@ Windows x64 binary distribution for the Our Adventurer Guild Save Editor.
 
 ## Download And Run
 
-1. Download the repository as a ZIP file or clone it.
+1. Download the repository as a ZIP file, clone it or download from Release.
 2. Open `OagSaveEditor`.
 3. Run `OagSaveEditor.exe`.
 
