@@ -10,8 +10,10 @@
       "OagSaveEditor/1.0.0": {
         "dependencies": {
           "AssetRipper.TextureDecoder": "2.6.1",
-          "AssetsTools.NET": "3.0.4",
+          "AssetsTools.NET": "3.0.5",
           "Krypton.Toolkit": "105.26.4.110",
+          "OagModding.Contract": "1.0.0",
+          "OagModding.Patcher": "1.0.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "8.0.24",
           "runtimepack.Microsoft.WindowsDesktop.App.Runtime.win-x64": "8.0.24"
         },
@@ -972,7 +974,7 @@
           }
         }
       },
-      "AssetsTools.NET/3.0.4": {
+      "AssetsTools.NET/3.0.5": {
         "runtime": {
           "lib/netstandard2.0/AssetsTools.NET.dll": {
             "assemblyVersion": "3.0.0.0",
@@ -985,6 +987,25 @@
           "lib/net8.0-windows7.0/Krypton.Toolkit.dll": {
             "assemblyVersion": "105.26.4.110",
             "fileVersion": "105.26.4.110"
+          }
+        }
+      },
+      "OagModding.Contract/1.0.0": {
+        "runtime": {
+          "OagModding.Contract.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OagModding.Patcher/1.0.0": {
+        "dependencies": {
+          "OagModding.Contract": "1.0.0"
+        },
+        "runtime": {
+          "OagModding.Patcher.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -1013,12 +1034,12 @@
       "path": "assetripper.texturedecoder/2.6.1",
       "hashPath": "assetripper.texturedecoder.2.6.1.nupkg.sha512"
     },
-    "AssetsTools.NET/3.0.4": {
+    "AssetsTools.NET/3.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NqYy5UIucwKwdkpamFTi8lr53hD+V8qQmbHzztQj1v4Pq1G4TjNlpkUWOhktTLBqBm4aPRaAkpFgB+3TDEuomw==",
-      "path": "assetstools.net/3.0.4",
-      "hashPath": "assetstools.net.3.0.4.nupkg.sha512"
+      "sha512": "sha512-StvUj6ykBOSOdquRmpbjn6mfM7PyOCKdBB/Ed2Jn5aIhbfrl/Oz69tmgJEQCZdix7AZRVZin14/wytP2moJgAQ==",
+      "path": "assetstools.net/3.0.5",
+      "hashPath": "assetstools.net.3.0.5.nupkg.sha512"
     },
     "Krypton.Toolkit/105.26.4.110": {
       "type": "package",
@@ -1026,6 +1047,16 @@
       "sha512": "sha512-kWYRxxbQU2TcT/UnSP5j3wnTuwg5vM7D4wf132IN2HRz3OmAWoHy6wImM2kQ4EBCda9aLQg7i2S8QNVszo7Sxw==",
       "path": "krypton.toolkit/105.26.4.110",
       "hashPath": "krypton.toolkit.105.26.4.110.nupkg.sha512"
+    },
+    "OagModding.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OagModding.Patcher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   },
   "runtimes": {
