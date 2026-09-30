@@ -11,6 +11,7 @@
         "dependencies": {
           "AssetRipper.TextureDecoder": "2.6.1",
           "AssetsTools.NET": "3.0.5",
+          "AssetsTools.NET.MonoCecil": "3.0.4",
           "Krypton.Toolkit": "105.26.4.110",
           "OagModding.Contract": "1.0.0",
           "OagModding.Patcher": "1.0.0",
@@ -982,11 +983,43 @@
           }
         }
       },
+      "AssetsTools.NET.MonoCecil/3.0.4": {
+        "dependencies": {
+          "AssetsTools.NET": "3.0.5",
+          "Mono.Cecil": "0.11.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AssetsTools.NET.MonoCecil.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Krypton.Toolkit/105.26.4.110": {
         "runtime": {
           "lib/net8.0-windows7.0/Krypton.Toolkit.dll": {
             "assemblyVersion": "105.26.4.110",
             "fileVersion": "105.26.4.110"
+          }
+        }
+      },
+      "Mono.Cecil/0.11.3": {
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "assemblyVersion": "0.11.3.0",
+            "fileVersion": "0.11.3.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "assemblyVersion": "0.11.3.0",
+            "fileVersion": "0.11.3.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "assemblyVersion": "0.11.3.0",
+            "fileVersion": "0.11.3.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "assemblyVersion": "0.11.3.0",
+            "fileVersion": "0.11.3.0"
           }
         }
       },
@@ -1041,12 +1074,26 @@
       "path": "assetstools.net/3.0.5",
       "hashPath": "assetstools.net.3.0.5.nupkg.sha512"
     },
+    "AssetsTools.NET.MonoCecil/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cWchJC+FR5h9ULKYFYPZL5zVBXRzKLBMQTNspQGH9pq4lXtwFTWd1QtOkX5HsHirGrmm651h/TfwrBZ2ru9PvA==",
+      "path": "assetstools.net.monocecil/3.0.4",
+      "hashPath": "assetstools.net.monocecil.3.0.4.nupkg.sha512"
+    },
     "Krypton.Toolkit/105.26.4.110": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-kWYRxxbQU2TcT/UnSP5j3wnTuwg5vM7D4wf132IN2HRz3OmAWoHy6wImM2kQ4EBCda9aLQg7i2S8QNVszo7Sxw==",
       "path": "krypton.toolkit/105.26.4.110",
       "hashPath": "krypton.toolkit.105.26.4.110.nupkg.sha512"
+    },
+    "Mono.Cecil/0.11.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DNYE+io5XfEE8+E+5padThTPHJARJHbz1mhbhMPNrrWGKVKKqj/KEeLvbawAmbIcT73NuxLV7itHZaYCZcVWGg==",
+      "path": "mono.cecil/0.11.3",
+      "hashPath": "mono.cecil.0.11.3.nupkg.sha512"
     },
     "OagModding.Contract/1.0.0": {
       "type": "project",
